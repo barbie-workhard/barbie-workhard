@@ -1,11 +1,10 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>IFE JavaScript Task 01</title>
   </head>
 <body>
-
   <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
   <button id="button" onclick="onclick1()">确认填写</button>
 
@@ -25,7 +24,6 @@ var span=document.getElementById("aqi-display");
  span.innerHTML = input.value;
  input.value="";//将输入框中的内容清除
 }
-
 </script>
 </body>
 </html>
